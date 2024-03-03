@@ -34,7 +34,7 @@ const XX99MarkII = () => {
           </p>
         </div>
         <div className="buton">
-          <Link>
+          <Link to='/Headpones/XX99MarkIIDetails'>
             <button className="bg-[#D87D4A] laptop:hover:bg-[#FBAF85] text-white px-4 py-3 font-extrabold">
               SEE PRODUCT
             </button>

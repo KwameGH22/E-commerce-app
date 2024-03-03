@@ -6,6 +6,7 @@ import Headphones from "./pages/Headphones";
 import Speakers from "./pages/Speakers";
 import Earphones from "./pages/Earphones";
 import RootLayout from "./layout/RootLayout";
+import XX99MarkIIDetailsPage from "./pages/XX99MarkIIDetailsPage";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
               <Route path="/Headphones" element={<Headphones />} />
               <Route path="/Speakers" element={<Speakers />} />
               <Route path="/Earphones" element={<Earphones />} />
+              
             </Route>
           </Routes>
         </div>
