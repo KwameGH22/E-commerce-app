@@ -1,6 +1,6 @@
 import React from 'react'
 
-const XX99Mark2DetailAds = () => {
+const XX59DetailGallery = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const XX99Mark2DetailAds = () => {
   )
 }
 
-export default XX99Mark2DetailAds
+export default XX59DetailGallery
