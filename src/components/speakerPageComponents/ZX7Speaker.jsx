@@ -1,6 +1,6 @@
 import React from 'react'
 
-const Tagline = () => {
+const ZX7Speaker = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const Tagline = () => {
   )
 }
 
-export default Tagline
+export default ZX7Speaker
