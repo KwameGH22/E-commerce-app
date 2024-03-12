@@ -31,7 +31,7 @@ const HeroSection = () => {
         </div>
         {/*SEE PRODUCT BUTTON*/}
         <div className="button tablet:mt-7">
-          <Link>
+          <Link to='/XX99MarkII'>
             <button className="bg-[#D87D4A] laptop:hover:bg-[#FBAF85]  px-4 py-3 font-extrabold">
               SEE PRODUCT
             </button>

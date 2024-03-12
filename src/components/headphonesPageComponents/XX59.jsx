@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const XX59 = () => {
   return (
     <div className='wrapper font-Manrope mt-20'>
-        <div className="xx59__wrapper h-[724px] mobile:flex mobile:flex-col mobile:gap-10 
+        <div className="xx59__wrapper mx-10 h-[724px] mobile:flex mobile:flex-col mobile:gap-10 
                         laptop:flex laptop:justify-between laptop:w-full laptop:h-[560px] laptop:gap-20 ">
             
             <div className="image mobile:bg-mob-xx59 tablet:bg-tb-xx59  laptop:bg-dt-xx59  bg-no-repeat bg-center bg-cover h-[352px] laptop:w-full laptop:h-[560px] ">

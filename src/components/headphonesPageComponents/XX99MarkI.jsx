@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const XX99MarkI = () => {
   return (
     <div
-      className="xx99marki_wrapper my-10 h-[724px] mobile:flex mobile:flex-col mobile:gap-10 
+      className="xx99marki_wrapper mx-10 my-10 h-[724px] mobile:flex mobile:flex-col mobile:gap-10 
                     laptop:flex laptop:justify-between laptop:w-full laptop:h-[560px] laptop:gap-20"
     >
       <div className="xx99markii_image mobile:bg-mob-xx99m1 bg-no-repeat bg-center bg-cover h-[352px] 

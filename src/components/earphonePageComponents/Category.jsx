@@ -1,13 +1,14 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const XX99MarkII = () => {
+const Category = ({details}) => {
+
   return (
     <div
-      className="xx99markii_wrapper mx-10 my-10  h-[724px] mobile:flex mobile:flex-col mobile:gap-10 
+      className="category_wrapper font-Manrope mx-10 my-10  h-[724px] mobile:flex mobile:flex-col mobile:gap-10 
                     laptop:flex laptop:justify-between laptop:w-full laptop:h-[560px] laptop:gap-20"
     >
-      <div className="xx99markii_image mobile:bg-mob-xx99m2 bg-no-repeat bg-center bg-cover h-[352px] tablet:bg-tb-xx99m2 laptop:bg-dt-xx99m2 laptop:w-full laptop:h-[560px]">
+      <div className="yx1_image mobile:bg-mob-yx1 bg-no-repeat bg-center bg-cover h-[352px] tablet:bg-tb-yx1 laptop:bg-dt-yx1 laptop:w-full laptop:h-[560px]">
         
       </div>
       <div
@@ -23,18 +24,16 @@ const XX99MarkII = () => {
           className="name mobile:tracking-[1px] mobile:leading-[30px] 
                             tablet:leading-[44px] tablet:tracking-[1.43px] text-[28px] tablet:text-[40px] font-bold"
         >
-          <p className="">XX99 MARK II</p>
-          <p>HEADPHONES</p>
+          <p className="">{details.name}</p>
+          
         </div>
         <div className="info text-[15px] px-2 tablet:px-16 laptop:px-0">
           <p className="laptop:pr-20">
-            The new XX99 Mark II headphones is the pinnacle of pristine audio.
-            It redefines your premium headphone experience by reproducing the
-            balanced depth and precision of studio-quality sound.
+            {details.description}
           </p>
         </div>
-        <div className="buton">
-          <Link to='/XX99MarkII'>
+        <div className="button">
+          <Link to='/YX1DetailsPage'>
             <button className="bg-[#D87D4A] laptop:hover:bg-[#FBAF85] text-white px-4 py-3 font-extrabold">
               SEE PRODUCT
             </button>
@@ -42,7 +41,7 @@ const XX99MarkII = () => {
         </div>
       </div>
     </div>
-  );
-};
+  )
+}
 
-export default XX99MarkII;
+export default Category

@@ -22,7 +22,7 @@ const Tagline = () => {
     // </div>
 
     <div
-      className="tagline_wrapper my-10 h-[724px] mobile:flex mobile:flex-col mobile:gap-10 
+      className="tagline_wrapper mx-10 my-10 h-[724px] mobile:flex mobile:flex-col mobile:gap-10 
                     laptop:flex laptop:justify-between laptop:w-full laptop:h-[560px] laptop:gap-20"
     >
       <div className="tagline_image mobile:bg-mob-gear-home bg-no-repeat bg-center bg-cover h-[352px] tablet:bg-tb-gear-home laptop:bg-dt-gear-home laptop:w-full laptop:h-[560px]"></div>
@@ -39,7 +39,7 @@ const Tagline = () => {
               <span className="text-[#D87D4A] ">BEST</span> AUDIO GEAR
             </p>
           </div>
-          <div className="bottom__text text-[15px] font-medium tablet:px-16 laptop:p-0 ">
+          <div className="bottom__text text-[15px]  tablet:px-16 laptop:p-0 ">
             <p>
               Located at the heart of New York City, Audiophile is the premier
               store for high end headphones, earphones, speakers, and audio

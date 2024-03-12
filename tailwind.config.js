@@ -45,7 +45,26 @@ export default {
         'dt-xx99m1': "url('../resources/assets/product-xx99-mark-one-headphones/desktop/image-product.jpg')",
         'dt-xx59': "url('../resources/assets/product-xx59-headphones/desktop/image-product.jpg')",
         'tb-xx59': "url('../resources/assets/product-xx59-headphones/tablet/image-product.jpg')",
-        'mob-xx59': "url('../resources/assets/product-xx59-headphones/mobile/image-product.jpg')"
+        'mob-xx59': "url('../resources/assets/product-xx59-headphones/mobile/image-product.jpg')",
+        'mob-gallery1': "url('../resources/assets/product-xx99-mark-two-headphones/mobile/image-gallery-1.jpg')",
+        'mob-gallery2': "url('../resources/assets/product-xx99-mark-two-headphones/mobile/image-gallery-2.jpg')",
+        'mob-gallery3': "url('../resources/assets/product-xx99-mark-two-headphones/mobile/image-gallery-3.jpg')",
+        'tb-gallery1': "url('../resources/assets/product-xx99-mark-two-headphones/tablet/image-gallery-1.jpg')",
+        'tb-gallery2': "url('../resources/assets/product-xx99-mark-two-headphones/tablet/image-gallery-2.jpg')",
+        'tb-gallery3': "url('../resources/assets/product-xx99-mark-two-headphones/tablet/image-gallery-3.jpg')",
+        'dt-gallery1': "url('../resources/assets/product-xx99-mark-two-headphones/desktop/image-product.jpg')",
+        'dt-gallery2': "url('../resources/assets/product-xx99-mark-two-headphones/desktop/image-product.jpg')",
+        'dt-gallery3': "url('../resources/assets/product-xx99-mark-two-headphones/desktop/image-product.jpg')",
+        'mob-zx9speaker': "url('../resources/assets/shared/mobile/image-zx9-speaker.jpg')",
+        'tb-zx9speaker': "url('../resources/assets/shared/tablet/image-zx9-speaker.jpg')",
+        'dt-zx9speaker': "url('../resources/assets/shared/desktop/image-zx9-speaker.jpg')",
+        'mob-zx7speaker': "url('../resources/assets/shared/mobile/image-zx7-speaker.jpg')",
+        'tb-zx7speaker': "url('../resources/assets/shared/tablet/image-zx7-speaker.jpg')",
+        'dt-zx7speaker': "url('../resources/assets/shared/desktop/image-zx7-speaker.jpg')",
+        'mob-yx1': "url('../resources/assets/product-yx1-earphones/mobile/image-category-page-preview.jpg')",
+        'tb-yx1': "url('../resources/assets/product-yx1-earphones/tablet/image-category-page-preview.jpg')",
+        'dt-yx1': "url('../resources/assets/product-yx1-earphones/desktop/image-category-page-preview.jpg')",
+
         
 
         

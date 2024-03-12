@@ -9,6 +9,7 @@ import Tagline from '../components/homePageComponents/Tagline';
 import FooterSection from '../components/homePageComponents/FooterSection';
 
 
+
 const Homepage = () => {
   return (
     <div className=''>
@@ -19,6 +20,7 @@ const Homepage = () => {
       <ZX7Speaker/>
       <YX1Earphones/>
       <Tagline/>
+      {/* <Products/> */}
       {/* <FooterSection/> */}
     </div>
   )

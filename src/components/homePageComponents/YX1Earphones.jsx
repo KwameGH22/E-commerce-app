@@ -5,7 +5,7 @@ const YX1Earphones = () => {
 
   return (
     <div className="yx1wrapper mobile:h-[424px] w-full mobile:flex mobile:flex-col gap-5 mb-10
-                    tablet:h-[320px] tablet:flex">
+                    tablet:h-[320px] tablet:flex mx-10">
       <div className="image mobile:h-[200px] 
                       mobile:bg-mob-earphone-home mobile:bg-no-repeat mobile:bg-cover mobile:bg-center 
                       tablet:bg-tb-earphone-home tablet:bg-cover tablet:bg-no-repeat tablet:bg-center tablet:w-full 

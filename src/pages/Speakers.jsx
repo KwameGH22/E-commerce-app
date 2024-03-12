@@ -1,13 +1,12 @@
 import React from 'react';
-import XX99Mark2DetailCard from '../components/headphonesPageComponents/XX99Mark2DetailCard';
-import XX99Mark1DetailCard from '../components/headphonesPageComponents/XX99Mark1DetailCard';
+
+import { yx1 } from '../components/data/Product1';
 
 
 const Speakers = () => {
   return (
     <div>
-      {/* <XX99Mark2DetailCard/> */}
-      <XX99Mark1DetailCard/>
+     
     </div>
   )
 }
