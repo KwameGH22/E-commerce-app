@@ -1,19 +1,18 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from 'react'
 
-const ZX9Speaker = ({details}) => {
+const ZX7SpeakerMobile = () => {
   return (
     <div
-      className="category_wrapper font-Manrope mx-10 my-10  h-[724px] mobile:flex mobile:flex-col mobile:gap-10 
+      className="categorySpeaker_wrapper font-Manrope mx-10 my-10  h-[724px] mobile:flex mobile:flex-col mobile:gap-10 
                     laptop:flex laptop:justify-between laptop:w-full laptop:h-[560px] laptop:gap-20"
     >
       <div
-        className="yx1_image mobile:bg-mob-zx9 bg-no-repeat bg-center bg-cover h-[352px] 
-                    tablet:bg-tb-zx9 
-                    laptop:bg-dt-zx9 laptop:w-full laptop:h-[560px]"
+        className="zx7_image mobile:bg-mob-zx7 bg-no-repeat bg-center bg-cover h-[352px] 
+                    tablet:bg-tb-zx7 
+                    laptop:bg-dt-zx7 laptop:w-full laptop:h-[560px]"
       ></div>
       <div
-        className="xx99markii_textDetails_wrapper text-center  
+        className="zx7_textDetails_wrapper text-center  
                         mobile:flex mobile:flex-col 
                         tablet:mt-10 tablet:flex tablet:flex-col gap-8 
                         laptop:text-start laptop:mt-0 laptop:justify-center"
@@ -42,4 +41,4 @@ const ZX9Speaker = ({details}) => {
   )
 }
 
-export default ZX9Speaker
+export default ZX7SpeakerMobile

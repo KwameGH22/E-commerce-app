@@ -1,10 +1,10 @@
-import React from 'react';
+import React from "react";
 import { Link } from "react-router-dom";
 import BackButton from "./BackButton";
 
 const XX59DetailCard = () => {
   return (
-    <div className='container font-Manrope'>
+    <div className="container font-Manrope">
       <div className="btn">
         <BackButton />
       </div>
@@ -16,9 +16,9 @@ const XX59DetailCard = () => {
         >
           <div
             className="image bg-no-repeat bg-center bg-cover h-[352px]
-                            mobile:bg-mob-xx99m1 
-                            tablet:bg-tb-xx99m2 tablet:h-[480px] tablet:w-[281px]
-                            laptop:bg-dt-xx99m2  laptop:w-full laptop:h-[560px]"
+                            mobile:bg-mob-xx59 
+                            tablet:bg-tb-xx59 tablet:h-[480px] tablet:w-[281px]
+                            laptop:bg-dt-xx59  laptop:w-full laptop:h-[560px]"
           ></div>
           <div
             className="details tablet:mt- mobile:flex mobile:flex-col tablet:w-[339.5px] tablet:flex tablet:flex-col tablet:justify-center gap-4 
@@ -29,22 +29,22 @@ const XX59DetailCard = () => {
             </div>
 
             <div className="name mobile:tracking-[1px] mobile:leading-[30px] tablet:leading-[44px] tablet:tracking-[1.43px] text-[28px] tablet:text-[40px] font-bold ">
-              <p className="">XX99 MARK I</p>
+              <p className="">XX59</p>
               <p>HEADPHONES</p>
             </div>
 
             <div className="info text-[15px] laptop:px-0 ">
               <p className=" laptop:pr-20 ">
-                As the gold standard for headphones, the classic XX99 Mark I
-                offers detailed and accurate audio reproduction for audiophiles,
-                mixing engineers, and music aficionados alike in studios and on
-                the go.
+                Enjoy your audio almost anywhere and customize it to your
+                specific tastes with the XX59 headphones. The stylish yet
+                durable versatile wireless headset is a brilliant companion at
+                home or on the move.
               </p>
             </div>
 
             {/* price */}
             <div className="price text-[15px] font-bold">
-              <p className=" tracking-[1.29px]">$ 1,750</p>
+              <p className=" tracking-[1.29px]">$ 899</p>
             </div>
 
             {/* count */}
@@ -75,7 +75,7 @@ const XX59DetailCard = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default XX59DetailCard
+export default XX59DetailCard;

@@ -28,7 +28,7 @@ const XX59 = () => {
   
               {/* button */}
               <div className="btn">
-                <Link>
+                <Link to='/XX59'>
                   <button className="bg-[#D87D4A] laptop:hover:bg-[#FBAF85] text-white px-4 py-3 font-extrabold">SEE PRODUCT</button>
                </Link>
               </div>

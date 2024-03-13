@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
-const ZX9Speaker = ({details}) => {
+const CategorySpeakers = ({ details }) => {
   return (
     <div
       className="category_wrapper font-Manrope mx-10 my-10  h-[724px] mobile:flex mobile:flex-col mobile:gap-10 
@@ -39,7 +39,7 @@ const ZX9Speaker = ({details}) => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default ZX9Speaker
+export default CategorySpeakers;

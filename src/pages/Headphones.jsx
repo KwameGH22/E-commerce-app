@@ -6,13 +6,12 @@ import XX59 from '../components/headphonesPageComponents/XX59';
 import Cards from '../components/homePageComponents/Cards';
 import Tagline from '../components/homePageComponents/Tagline';
 import HeadPhonesHeader from '../components/headphonesPageComponents/HeadPhonesHeader';
-import CategoryHeader from '../components/speakerPageComponents/CategoryHeader';
+
 
 const Headphones = () => {
   return (
     <div className='wrapper font-Manrope'>
-      {/* <HeadPhonesHeader/> */}
-      <CategoryHeader title='EARPHONES'/>
+      <HeadPhonesHeader/>
       <XX99MarkII/>
       <XX99MarkI/>
       <XX59/>

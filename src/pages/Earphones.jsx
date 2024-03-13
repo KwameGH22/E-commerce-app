@@ -5,11 +5,12 @@ import Cards from '../components/homePageComponents/Cards';
 import Tagline from '../components/homePageComponents/Tagline';
 import Category from '../components/earphonePageComponents/Category';
 import CategoryHeader from '../components/speakerPageComponents/CategoryHeader';
+import EarphonesHeader from '../components/earphonePageComponents/EarphonesHeader';
 
 const Earphones = () => {
   return (
     <div>
-      <CategoryHeader title={yx1}/>
+      <EarphonesHeader/>
       <Category details={yx1}/>
       <Cards/>
       <Tagline/>

@@ -3,7 +3,7 @@ import React from 'react';
 const YX1DetailsPage = () => {
   return (
     <div>
-      hahaha
+      
     </div>
   )
 }

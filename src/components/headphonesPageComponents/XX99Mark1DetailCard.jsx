@@ -17,8 +17,8 @@ const XX99Mark1DetailCard = () => {
           <div
             className="image bg-no-repeat bg-center bg-cover h-[352px]
                             mobile:bg-mob-xx99m1 
-                            tablet:bg-tb-xx99m2 tablet:h-[480px] tablet:w-[281px]
-                            laptop:bg-dt-xx99m2  laptop:w-full laptop:h-[560px]"
+                            tablet:bg-tb-xx99m1 tablet:h-[480px] tablet:w-[281px]
+                            laptop:bg-dt-xx99m1  laptop:w-full laptop:h-[560px]"
           ></div>
           <div
             className="details tablet:mt- mobile:flex mobile:flex-col tablet:w-[339.5px] tablet:flex tablet:flex-col tablet:justify-center gap-4 

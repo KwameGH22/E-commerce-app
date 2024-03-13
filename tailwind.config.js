@@ -64,6 +64,33 @@ export default {
         'mob-yx1': "url('../resources/assets/product-yx1-earphones/mobile/image-category-page-preview.jpg')",
         'tb-yx1': "url('../resources/assets/product-yx1-earphones/tablet/image-category-page-preview.jpg')",
         'dt-yx1': "url('../resources/assets/product-yx1-earphones/desktop/image-category-page-preview.jpg')",
+        'mob-zx9': "url('../resources/assets/product-zx9-speaker/mobile/image-category-page-preview.jpg')",
+        'tb-zx9': "url('../resources/assets/product-zx9-speaker/tablet/image-category-page-preview.jpg')",
+        'dt-zx9': "url('../resources/assets/product-zx9-speaker/desktop/image-category-page-preview.jpg')",
+        'mob-zx7': "url('../resources/assets/product-zx7-speaker/mobile/image-category-page-preview.jpg')",
+        'tb-zx7': "url('../resources/assets/product-zx7-speaker/tablet/image-category-page-preview.jpg')",
+        'dt-zx7': "url('../resources/assets/product-zx7-speaker/desktop/image-category-page-preview.jpg')",
+        'mob-gallery-m1-1': "url('../resources/assets/product-xx99-mark-one-headphones/mobile/image-gallery-1.jpg')",
+        'mob-gallery-m1-2': "url('../resources/assets/product-xx99-mark-one-headphones/mobile/image-gallery-2.jpg')",
+        'mob-gallery-m1-3': "url('../resources/assets/product-xx99-mark-one-headphones/mobile/image-gallery-3.jpg')",
+        'tb-gallery-m1-1': "url('../resources/assets/product-xx99-mark-one-headphones/tablet/image-gallery-1.jpg')",
+        'tb-gallery-m1-2': "url('../resources/assets/product-xx99-mark-one-headphones/tablet/image-gallery-2.jpg')",
+        'tb-gallery-m1-3': "url('../resources/assets/product-xx99-mark-one-headphones/tablet/image-gallery-3.jpg')",
+        'dt-gallery-m1-1': "url('../resources/assets/product-xx99-mark-one-headphones/desktop/image-product.jpg')",
+        'dt-gallery-m1-2': "url('../resources/assets/product-xx99-mark-one-headphones/desktop/image-product.jpg')",
+        'dt-gallery-m1-3': "url('../resources/assets/product-xx99-mark-one-headphones/desktop/image-product.jpg')",
+        'mob-gallery-xx59-1': "url('../resources/assets/product-xx59-headphones/mobile/image-gallery-1.jpg')",
+        'mob-gallery-xx59-2': "url('../resources/assets/product-xx59-headphones/mobile/image-gallery-2.jpg')",
+        'mob-gallery-xx59-3': "url('../resources/assets/product-xx59-headphones/mobile/image-gallery-3.jpg')",
+        'tb-gallery-xx59-1': "url('../resources/assets/product-xx59-headphones/tablet/image-gallery-1.jpg')",
+        'tb-gallery-xx59-2': "url('../resources/assets/product-xx59-headphones/tablet/image-gallery-2.jpg')",
+        'tb-gallery-xx59-3': "url('../resources/assets/product-xx59-headphones/tablet/image-gallery-3.jpg')",
+        'dt-gallery-xx59-1': "url('../resources/assets/product-xx59-headphones/desktop/image-product.jpg')",
+        'dt-gallery-xx59-2': "url('../resources/assets/product-xx59-headphones/desktop/image-product.jpg')",
+        'dt-gallery-xx59-3': "url('../resources/assets/product-xx59-headphones/desktop/image-product.jpg')"
+
+
+
 
         
 

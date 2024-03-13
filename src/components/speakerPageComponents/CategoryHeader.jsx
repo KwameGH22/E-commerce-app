@@ -5,7 +5,7 @@ import { ProductsContext } from '../data/ProductsContextProvider';
 
 
 
-const CategoryHeader = ({title}) => {
+const CategoryHeader = ({yx1}) => {
     // const {yx1} = useContext(ProductsContext);
     // console.log(data)
     // const y = JSON.stringify(data);
@@ -24,7 +24,7 @@ const CategoryHeader = ({title}) => {
   return (
     <div>
       <div className='bg-black py-10'>
-      <h1 className="text-white font-bold text-center">{title.category}</h1>
+      <h1 className="text-white font-bold text-center">{yx1.category}</h1>
     </div>
     </div>
   )
