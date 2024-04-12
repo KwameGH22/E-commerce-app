@@ -56,6 +56,8 @@ import { Link } from "react-router-dom";
 // }
 
 const XX99Mark2DetailAds = () => {
+
+  
   return (
     <div
       className="ads mobile:flex mobile:flex-col mobile:mb-[150px] font-Manrope
@@ -89,7 +91,7 @@ const XX99Mark2DetailAds = () => {
             >
               XX99MARKI
             </div>
-            <Link>
+            <Link to='/XX99MARKI'>
               <button
                 className="recommendedBtn mobile:border-none mobile:bg-[#D87D4A] mobile:text-[#fff] mobile:px-3 mobile:py-5 mobile:text-sm mobile:font-bold mobile:tracking-[1px] mobile:ml-[30%] mobile:mb-5
                                 tablet:border-none tablet:mx-0 tablet:my-auto tablet:bg-[#D87D4A] tablet:text-[#fff] tablet:px-3 tablet:py-5 tablet:text-xs tablet:font-bold tablet:tracking-[1px] tablet:mb-5 tablet:ml-[18%]"
@@ -113,7 +115,7 @@ const XX99Mark2DetailAds = () => {
             >
               XX59
             </div>
-            <Link>
+            <Link to='/XX59'>
               <button
                 className="recommendedBtn mobile:border-none mobile:bg-[#D87D4A] mobile:text-[#fff] mobile:px-3 mobile:py-5 mobile:text-sm mobile:font-bold mobile:tracking-[1px] mobile:ml-[30%] mobile:mb-5
                                 tablet:border-none tablet:mx-0 tablet:my-auto tablet:bg-[#D87D4A] tablet:text-[#fff] tablet:px-3 tablet:py-5 tablet:text-xs tablet:font-bold tablet:tracking-[1px] tablet:mb-5 tablet:ml-[18%]"
@@ -137,7 +139,7 @@ const XX99Mark2DetailAds = () => {
             >
               ZX9 SPEAKER
             </div>
-            <Link>
+            <Link to='/ZX9'>
               <button
                 className="recommendedBtn mobile:border-none mobile:bg-[#D87D4A] mobile:text-[#fff] mobile:px-3 mobile:py-5 mobile:text-sm mobile:font-bold mobile:tracking-[1px] mobile:ml-[30%] mobile:mb-5
                                 tablet:border-none tablet:mx-0 tablet:my-auto tablet:bg-[#D87D4A] tablet:text-[#fff] tablet:px-3 tablet:py-5 tablet:text-xs tablet:font-bold tablet:tracking-[1px] tablet:mb-5 tablet:ml-[18%]"

@@ -1,5 +1,4 @@
-export const yx1 = 
-{
+export const yx1 = {
     id: 1,
     slug: "yx1-earphones",
     name: "YX1 WIRELESS EARPHONES",

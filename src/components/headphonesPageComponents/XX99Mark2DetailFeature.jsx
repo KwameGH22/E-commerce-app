@@ -7,7 +7,7 @@ const XX99Mark2DetailFeature = () => {
         <h1 className=" mb-6 tablet:text-[32px] leading-[36px] font-Manrope font-bold tracking-[1.14px]">
           FEATURES
         </h1>
-        <div className="text-left">
+        <div className="text-left laptop:mx-10">
           <p>
             Featuring a genuine leather head strap and premium earcups, these
             headphones deliver superior comfort for those who like to enjoy

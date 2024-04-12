@@ -3,7 +3,7 @@ import React from "react";
 const XX59DetailFeature = () => {
   return (
     <div className="container font-Manrope">
-      <div className="features mt-10 mx-10">
+      <div className="features mt-10 mx-10 mobile:w-[327px]">
         <h1 className=" mb-6 tablet:text-[32px] leading-[36px] font-Manrope font-bold tracking-[1.14px]">
           FEATURES
         </h1>

@@ -12,7 +12,7 @@ const ZX7Speaker = () => {
             <p className="tracking-[-1px]">ZX7 SPEAKER</p>
           </div>
           <div className="btn">
-            <Link>
+            <Link to='/speakers'>
               <button className=" px-4 py-3 font-extrabold border-2 border-black mobile:tracking-[1px] tablet:tracking-[2px] laptop:hover:bg-[#000000] laptop:hover:text-[#FFFF]">SEE PRODUCT</button>
             </Link>
           </div>

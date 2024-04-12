@@ -10,7 +10,7 @@ const XX59DetailCard = () => {
       </div>
       <div className="detailCard_wrapper mt-10 mx-10">
         <div
-          className="headphone__wrapper mobile:flex mobile:flex-col mobile:gap-10 
+          className="headphone__wrapper mobile:flex mobile:flex-col mobile:gap-10 mobile:w-[327px]
                         tablet:flex tablet:gap-10 tablet:h-[480px] tablet:w-[689.5px] 
                         laptop:flex laptop:justify-between laptop:w-full laptop:h-[560px] laptop:gap-20"
         >
@@ -18,7 +18,7 @@ const XX59DetailCard = () => {
             className="image bg-no-repeat bg-center bg-cover h-[352px]
                             mobile:bg-mob-xx59 
                             tablet:bg-tb-xx59 tablet:h-[480px] tablet:w-[281px]
-                            laptop:bg-dt-xx59  laptop:w-full laptop:h-[560px]"
+                            laptop:bg-dt-xx59  laptop:w-[500px] laptop:h-[560px]"
           ></div>
           <div
             className="details tablet:mt- mobile:flex mobile:flex-col tablet:w-[339.5px] tablet:flex tablet:flex-col tablet:justify-center gap-4 

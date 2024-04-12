@@ -36,7 +36,7 @@ const ZX9Speaker = () => {
                 </div>
                 {/* product button */}
                 <div className="btn">
-                <Link>
+                <Link to='/speakers'>
                   <button className="bg-[#000000] text-white px-4 py-3 font-extrabold laptop:hover:bg-[#4c4c4c]">SEE PRODUCT</button>
                 </Link>
                 </div>

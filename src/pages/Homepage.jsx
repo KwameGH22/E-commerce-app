@@ -7,21 +7,24 @@ import ZX7Speaker from '../components/homePageComponents/ZX7Speaker';
 import ZX9Speaker from '../components/homePageComponents/ZX9Speaker';
 import Tagline from '../components/homePageComponents/Tagline';
 import FooterSection from '../components/homePageComponents/FooterSection';
+import ProductDetailCard from '../components/earphonePageComponents/ProductDetailCard';
+import GadgetsPage from '../components/GadgetsPage';
 
 
 
 const Homepage = () => {
   return (
     <div className=''>
-      {/* <NavBar/> */}
+      
       <HeroSection/>
       <Cards/>
+      {/* <GadgetsPage/> */}
+      {/* <ProductDetailCard/> */}
       <ZX9Speaker/>
       <ZX7Speaker/>
       <YX1Earphones/>
       <Tagline/>
-      {/* <Products/> */}
-      {/* <FooterSection/> */}
+      
     </div>
   )
 }

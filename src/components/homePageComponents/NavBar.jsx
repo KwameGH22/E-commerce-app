@@ -9,14 +9,25 @@ import { IoCartOutline } from "react-icons/io5";
 import {Link} from 'react-router-dom';
 import MobNav from "./MobNav";
 import NavLinksDesk from "./NavLinksDesk";
+import Cart from "../Cart/Cart";
+import CartModal from "../Cart/CartModal";
 
-const NavBar = () => {
+const NavBar = ({size}) => {
   const [openMenu, setOpenMenu] = useState(false);
+  const [openCart, setOpenCart] = useState(false);
+  const [showModal, setShowModal] = useState(false);
+
 
   const handleDropdownMenu = () => {
     setOpenMenu(!openMenu);
   };
+  const handleOpenCart = () => {
+    setOpenCart(!openCart)
+  }
 
+  const handleShowModal = () => {
+    setShowModal(!showModal);
+  }
   return (
     <div className="container__wrapper">
       {/* header section */}
@@ -47,8 +58,11 @@ const NavBar = () => {
         <NavLinksDesk/>
         {/* Cart Icon */}
         <div>
-          <IoCartOutline className="cart h-10 w-10 text-white" />
+          <IoCartOutline className="cart h-6 w-6 text-white" onClick={handleShowModal}/>
+          {showModal && <CartModal onClose={()=> setShowModal(false)}/>}
+          
         </div>
+        {/* <span className="text-white">{size}</span> */}
       </header>
     </div>
   );
